@@ -1,0 +1,767 @@
+body{    
+    background-color:#1C1C1C;
+    background-repeat: no-repeat;  
+    background-size: cover; 
+    background-position-y: -65px;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.ContainerBody{
+    width: 100%;
+    max-width: 1360px;
+    height: auto;
+    margin: auto;    
+}
+
+.BarraMenu{ 
+    opacity: 0.9;
+    background-image: linear-gradient(to left, black, black);
+      
+    margin-bottom: 25px;   
+    width: 100%;    
+    height: 50px;
+}
+
+.BoxMenu{
+    width: 100%;         
+    max-width: 1360px;       
+    height: 50px;
+    margin: auto; 
+}
+
+.MenuLeft{    
+    position: absolute;
+    float: left;
+    width: 50%;
+    max-width: 520px;
+    height: 50px;
+    padding-top: 3px;    
+    padding-left: 2%;
+    font-family: 'Baloo Bhai 2', cursive;
+    color:  whitesmoke;
+    font-size: 30px;      
+}
+
+.MenuLeft img{    
+    width: 100px;
+    height: 100px;    
+}
+
+.MenuRight{    
+    float: right;
+    width: 50%;    
+    height: 50px;  
+    text-align: right; 
+    margin: auto;
+}
+
+.MenuRight ul{    
+    margin: 0;
+    padding-left: 43%;   
+    list-style: none;
+    text-align: right;    
+}
+
+.MenuRight li{    
+    line-height: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: 'Baloo Bhai 2', cursive; 
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.MenuRight li :hover{
+    color: #FFD100;    
+}
+
+.ConteudoUm{    
+    width: 100%;
+    height: auto;
+}
+
+.SlideShow{
+    width: 100%;
+    max-width: 1040px; /*alteração do slide é preciso alterar showArea*/
+    height: 585px;
+    margin: auto;    
+    background-color: #fff;
+    overflow: hidden;
+}
+.ShowArea{
+    width: 3200px;
+    height: 585px;
+    transition: all 2s;            
+}
+.Slide{
+    width: 100%;
+    max-width: 1040px;
+    height: 585px;
+    float: left;    
+    background-size: 100%;    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+           
+}
+.Seta{
+    position: absolute;    
+    width: 100%;
+    max-width: 1040px;
+    height: 500px;   
+}
+.SetaRight{
+   margin-right: 5px; 
+   margin-top: 272px; 
+   float: right;
+   width: 40px;
+   font-size: 35px;
+   text-align: center;
+   cursor: pointer;
+   background-color: rgba(0, 0, 0, 0.411);   
+   color: #fff;
+   border-radius: 25px;   
+}
+.SetaLeft{
+   margin-left: 5px;
+   margin-top: 272px; 
+   float: left;
+   width: 40px;
+   font-size: 35px;
+   text-align: center;
+   cursor: pointer;
+   background-color: rgba(0, 0, 0, 0.411);   
+   color: #fff;
+   border-radius: 25px;   
+}
+.SetaLeft:hover{
+    background-color: rgba(0, 0, 0, 0.637);
+}
+.SetaRight:hover{
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.Banner{ 
+    padding-top: 25px;   
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.Banner img{
+    padding-left: 23%;
+}
+
+.BoxFooter{    
+    margin: auto;    
+    width: 100%;
+    max-width: 1360px;
+    height: auto;
+}
+
+footer{
+    margin-top: 10%;
+    width: 100%;
+    height: 400px;
+    background-color: black;    
+}
+
+.LeftSide{      
+    float: left;     
+    width: 50%;
+    height: 300px;
+}
+
+.LeftSide .list1{
+    float: left;
+}
+
+.LeftSide .list2{
+    float: right;
+}
+
+footer ul{  
+    margin-left: 10%; 
+    padding-top: 100px; 
+    line-height: 25px;
+    list-style: none;
+}
+
+footer li a{    
+    font-size: 15px;    
+    font-family: sans-serif;
+}
+
+footer li img{
+    padding-top: 10px;
+    width: 30px;
+    height: 21px;
+}
+
+footer li :hover{
+    color: #FFD100;
+}
+
+.RightSide{
+    float: right;    
+    width: 50%;
+    height: 300px;    
+}
+
+.RightSide ul{
+    padding-left: 220px;
+    list-style: none;
+    padding-top: 170px;    
+}
+
+.RightSide li{    
+    margin-left: 10px;
+    float: left;
+}
+
+.RightSide ul img{
+    width: 25px;
+    height: 25px;
+}
+
+#Zero{
+    padding-left: 40px;    
+    width: 100px;
+    height: 100px;
+}
+
+.RefDev{    
+    float: right;   
+    margin-top: 20px;     
+    margin-right: 110px;    
+    border-top: gray;
+    border-style: solid; 
+    border-width: 1px;              
+    width: 85%;
+    height: 50px;
+}
+
+.RefDev h4, .RefDev h5{
+    color: gray;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.RefDev h5{
+    float: left;
+    margin-left: 4px;
+}
+
+/*-----------Body_Login----------*/
+
+.BoxForm{         
+    margin: auto;      
+    border-radius: 2px;    
+    width: 70%;
+    height: 740px;
+}
+
+.Form{ 
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+    float: left; 
+    color: white;       
+    margin-top: 70px;
+    margin-left: 25%;
+    background-color: black; 
+    opacity: 0.9;         
+    border-style: solid;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-color: #FFBF00;        
+    width: 50%;
+    height: 500px;
+}
+
+.Form img{
+    margin-top: 30px;    
+    width: 80px;
+    height: 80px;
+}
+
+form{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.Form input{      
+    height: 45px;
+    font-size: 18px;
+}
+
+#CheckBox{
+    float: left;
+    margin-top: -34px;
+    margin-left: 17px;
+}
+
+#Legenda{
+    font-size: 14px;
+    text-align: left;
+    margin-top: -23px;
+    margin-left: 40px;
+}
+
+#Login{
+    float: right;
+    margin-top: -45px; 
+    margin-right: 17px;   
+    width: 130px;    
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #3030FF;
+    color: blanchedalmond;
+    border-radius: 2px;
+}
+
+.Campo{
+    border: none;
+    border-bottom: solid;
+    border-color: gray;
+    color: #fff;
+    background-color: #1C1C1C;    
+}
+
+.Campo:focus{
+    color: #3030FF;
+    border-bottom-color: #3030FF;
+}
+
+.Info{    
+    font-size: 14px;
+    color: #3030FF;    
+}
+
+.Info:hover{
+    color: #FFBF00;
+}
+
+#Login:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #FFD100;
+}
+
+#TextInfo{
+    font-size: 14px;
+}
+
+/*-----------------Body_Cadastro-----------------*/
+
+#BackCad{
+    background-position-x: -1600px;       
+}
+
+.FormCad{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+    float: left; 
+    color: white;       
+    margin-top: 70px;    
+    background-color: black; 
+    opacity: 0.9;         
+    border-style: solid;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-color: #FFBF00;        
+    width: 100%;
+    height: 690px;
+}
+
+.FormCad input{      
+    height: 45px;
+    font-size: 18px;
+}
+
+.BoxFormCad{         
+    margin: auto;      
+    border-radius: 2px;    
+    width: 70%;
+    height: 800px;
+}
+
+#Cancel{
+    float: left;     
+    margin-left: 20px;   
+    width: 130px;    
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #3030FF;
+    color: blanchedalmond;
+    border-radius: 2px;
+}
+
+#Cadastre{
+    float: right;     
+    margin-right: 20px;   
+    width: 130px;    
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #3030FF;
+    color: blanchedalmond;
+    border-radius: 2px;
+}
+
+#Cadastre:hover, #Cancel:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #FFD100;
+}
+
+.BoxLeftCad{
+    width: 50%;
+    float: left;
+}
+
+.BoxRightCad{
+    width: 50%;
+    float: right;
+}
+
+
+/*--------------Menu_Usuario------------*/
+
+.Usuario{    
+    color: cornsilk;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 22px;
+}
+
+.BotaoMenu{
+    font-size: 18px; 
+    height: 50px;     
+    width: 99%;    
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #3030FF;
+    color: blanchedalmond;  
+    border-color: #1C1C1C;  
+}
+
+.BotaoMenu:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #FFD100;
+}
+
+.BoxFormMenu{          
+    border-radius: 2px;    
+    width: 100%;
+    height: 740px;
+}
+
+.FormMenu{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+    float: left; 
+    color: white;       
+    margin-top: 70px;    
+    background-color: black; 
+    opacity: 0.9;         
+    border-style: solid;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-color: #FFBF00;        
+    width: 15%;
+    height: 335px;
+}
+
+.Conteudo{
+    background-color: gray;
+    float: right;
+    margin-right: 2%;
+    width: 80%;
+    height: 100%;
+}
+
+/*---------------MeusDados------------------*/
+
+.meusDados{
+    background-color: black;   
+    float: right;
+    margin-right: 2%;
+    width: 80%;
+    height: 100%;
+}
+
+.boxDadosPessoais{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.boxEndereco{
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+.subtitulo{      
+    width: 100%;
+    height: 50px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+.TabelaMeusDados th{
+    color: #FFBF00;
+    text-align: left;
+}
+
+.contato{
+    font-size: 15px;    
+    text-align: left;
+    padding-top: 15px;
+}
+
+.TabelaMeusDados td{    
+    text-align: left;
+    padding-left: 10px;
+}
+
+.informacoes table{    
+    font-size: 20px;
+    margin: auto;
+    margin-top: 35px;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.ButtonAreaLeft{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.ButtonAreaRight{
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+button{    
+    font-size: 15px;
+    height: 45px;
+    width: 130px;    
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #3030FF;
+    color: blanchedalmond;
+    border-radius: 2px;
+}
+
+.ButtonMeusDados{
+    width: 25%;
+    height: auto;
+    margin: auto;
+}
+
+button:hover{
+    color: black;
+    cursor: pointer;    
+    background-color: #FFD100;
+}
+
+/*---------------EditarDados----------------*/
+
+#boxEditarDados{
+    margin: auto;
+    margin-left: 20%;
+}
+
+#f_dado{
+    color: #FFBF00;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 18px;
+}
+
+#i_dado{
+    height: 30px;
+    font-size: 15px;
+}
+
+.buttonEditarDados{
+    height: 45px;
+}
+
+/*-------------MinhasDenuncias--------------*/
+
+.minhaDenuncia{
+    background-color:black;   
+    float: right;
+    margin-right: 2%;
+    width: 80%;
+    height: 100%;
+}
+
+.AreaTable{
+    margin: auto;    
+    width: 100%;
+    height: 500px;
+}
+
+.TabelaDenuncia{    
+    font-size: 18px;     
+    font-family: 'Baloo Bhai 2', cursive;   
+    color: white;
+    margin: auto;     
+}
+
+.Indice{
+    border: yellow;
+}
+
+.TabelaDenuncia th{    
+    padding: 10px;
+    text-align: center;
+}
+
+.TabelaDenuncia td{
+    padding: 10px;
+    text-align: center;
+}
+
+.TabelaDenuncia a{
+    font-size: 18px;
+}
+
+.TabelaDenuncia a:hover{
+    color: #FFD100;
+    cursor: pointer;    
+}
+
+#DetalharArea{   
+    width: 100%;
+    height: 500px;
+}
+
+#ImgBox{    
+    float: left;
+    width: 50%;
+    height: 80%;
+}
+
+#ImgBox img{
+    color: white;
+    padding-top: 10px;    
+    width: 500px;    
+}
+
+#TextSide{
+    color: white;    
+    float: right;
+    width: 48%;
+    height: 100%;
+}
+
+/*------------DetalhesDenuncia--------------*/
+
+.TabelaDetalheDenuncia{   
+    padding-left: 20px;
+    text-align: left;    
+    font-size: 16px;     
+    font-family: 'Baloo Bhai 2', cursive;   
+    color: white;
+    margin: auto;     
+}
+
+.detalheDenunciaDados{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.areaTexto{
+    max-width: 500px;
+    word-wrap: break-word;
+    height: auto;
+}
+
+#DetalheAreaButton{
+    margin-top: 0px;
+}
+
+/*---------FormularioNovaDenuncia-----------*/
+.formNovaDenuncia{
+    background-color: black;   
+    float: right;
+    margin-right: 2%;
+    width: 80%;
+    height: 100%;
+}
+
+.TituloPagina h2{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+.formNovaDenuncia label{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #1C1C1C;
+}
+
+.formNovaDenuncia input{
+    margin-left: 10px;
+    height: 45px;
+    font-size: 15px;
+}
+
+.BoxLeft{
+    width: 50%;
+    float: left;
+}
+
+#Label{      
+    padding-left: 30px;  
+    margin-top: 15px;
+    float: left;
+    width: 40%;
+    height: 40px;
+}
+
+#Browser{
+    padding-right: 12px;
+    float: right;
+    width: 50%;
+    height: 40px;
+}
+
+#UploadArea{
+    margin-left: 9px;
+    width: 80%;
+    height: 55px;
+    background-color: #EBC000;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.BoxRight{
+    width: 50%;
+    float: right;
+}
+
+.ButtonArea{    
+    margin: auto;
+    margin-top: 500px;
+    width: 100%;
+    height: 45px;    
+}
+
+.ButtonNovaDenuncia{    
+    width: 25%;
+    height: auto;
+    margin: auto;    
+}
